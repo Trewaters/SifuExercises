@@ -1,0 +1,34 @@
+Purpose:
+
+Create a server to run javascript exercises I want to work on. Make this as small as I can.
+
+Not sure what lite-server actually does. Do I need expressJS too.
+
+----
+- Javascript exercises ( http://www.w3resource.com/javascript-exercises/ )
+- exercise #1 ( http://www.w3resource.com/javascript-exercises/javascript-basic-exercise-1.php )
+
+- Other exercise website ( https://www.quora.com/I-need-JavaScript-practice-with-problems-and-solutions-is-there-a-good-site )
+
+- lite-server documentation ( https://github.com/johnpapa/lite-server )
+-- command  `npm run dev`
+
+- Logging for development. Best practices
+-- npm "debug" found here( https://www.npmjs.com/package/debug ) 
+-- npm debug blog post ( https://strongloop.com/strongblog/the-node-js-debug-module-advanced-usage/ )
+-- blog post ( https://blog.risingstack.com/node-js-logging-tutorial/ )
+-- debug command "set DEBUG=*,-<app_name>"
+-- npm "morgan" is an http logger for expressJS.
+-- npm "winston" ( https://github.com/winstonjs/winston)
+-- npm winston is for node logging
+-- npm winston documentation ( https://github.com/winstonjs/winston/blob/master/docs/transports.md )
+-- npm winston blog post ( http://thisdavej.com/using-winston-a-versatile-logging-library-for-node-js/ ). Great examples
+-- npm "winston-mongodb" ( https://github.com/winstonjs/winston-mongodb ) log winston to mongodb
+
+- Environment variables
+-- npm "dotenv" to manage environment variables ( https://www.npmjs.com/package/dotenv )
+-- blog post ( https://www.tutorialspoint.com/nodejs/nodejs_environment_setup.htm )
+
+- MongoDB on mLab
+-- URI `mongodb://<dbuser>:<dbpassword>@ds123361.mlab.com:23361/mlab-online`
+-- user (trewaters, mlab-online)

@@ -1,0 +1,5 @@
+{
+  "port": 3000,
+  "files": ["./webRoot/**/*.{html,htm,css,js}"],
+  "server": { "baseDir": "./webRoot" }
+}
