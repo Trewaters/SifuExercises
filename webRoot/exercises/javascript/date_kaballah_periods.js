@@ -41,7 +41,7 @@ function planet(pName,pSDate,pEDate,pDesc){
     }
 };
 
-var period1 = new planet("Sun");
+var period1 = new planet("Sun",); // April 23, 2017 should be the end of this period
 var period2 = new planet("Moon");
 var period3 = new planet("Mars");
 var period4 = new planet("Mercury");
